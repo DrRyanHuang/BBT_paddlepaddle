@@ -14,3 +14,8 @@
 <p align="center">
 <img src="https://github.com/DrRyanHuang/BBT_paddlepaddle/blob/master/%E8%8A%AE%E8%8A%AE%E5%A7%90%E6%AF%8F%E6%97%A5%E9%B8%A1%E6%B1%A4/readme_src/ruirui.png">
 </p>
+通过修改 `CFG` 文件即可修改所有配置
+
+直接运行 `main.py` 即可，结果为 `output.png`
+
+使用了`cv2`和`PIL`，环境没有这俩的话装一下

@@ -229,7 +229,7 @@ max_height = int(config.getfloat('biaoqingbao', 'max_height') * page_height)
 
 background = util.putImgToBackGr(bqb_img, background, bqb_center_x, bqb_center_y, max_width, max_height)
 
-cv2.imwrite('x.png', background)
+cv2.imwrite('output.png', background)
 
 
 
