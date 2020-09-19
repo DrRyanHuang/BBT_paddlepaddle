@@ -126,8 +126,8 @@ R, G, B = util.splitRGB(yiji_font_color)
 
 w, h = util.getCharacterSize(background, '早点\n睡觉', font_file, textSize=font_size)
 background = util.cv2ImgAddText(background, '早点\n睡觉', x1+yiji_shift-w//2, y-h//2, font, textColor=(R, G, B), textSize=yiji_font_size)
-w, h = util.getCharacterSize(background, '又吃\n夜宵', font_file, textSize=font_size)
-background = util.cv2ImgAddText(background, '又吃\n夜宵', x2+yiji_shift-w//2, y-h//2, font, textColor=(R, G, B), textSize=yiji_font_size)
+w, h = util.getCharacterSize(background, '熬夜\n晚睡', font_file, textSize=font_size)
+background = util.cv2ImgAddText(background, '熬夜\n晚睡', x2+yiji_shift-w//2, y-h//2, font, textColor=(R, G, B), textSize=yiji_font_size)
 
 
 

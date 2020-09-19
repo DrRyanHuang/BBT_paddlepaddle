@@ -118,7 +118,7 @@ def putImgToBackGr(img, background, center_x, center_y, max_w, max_h):
     elif max_w/max_h >= img_w/img_h:
         img = cv2.resize(img, (int(max_h/img_h*img_w), max_h))
     else:
-        img = cv2.resize(img, (max_w, int(max_w/img_w*max_h)))
+        img = cv2.resize(img, (max_w, int(max_w/img_w*img_h)))
     img_h, img_w, _ = img.shape
     
     x_start = center_x - img_w//2
