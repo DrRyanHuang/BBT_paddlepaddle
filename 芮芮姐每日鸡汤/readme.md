@@ -12,5 +12,5 @@
 
 这是图片示例：
 <p align="center">
-<img src="https://img.shields.io/badge/version-0.1-green.svg?longCache=true&style=for-the-badge">
+<img src="https://github.com/DrRyanHuang/BBT_paddlepaddle/blob/master/%E8%8A%AE%E8%8A%AE%E5%A7%90%E6%AF%8F%E6%97%A5%E9%B8%A1%E6%B1%A4/readme_src/ruirui.png">
 </p>
