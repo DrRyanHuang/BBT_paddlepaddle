@@ -6,6 +6,7 @@ Created on Thu Sep 17 16:27:22 2020
 """
 import cv2
 import configparser
+import random
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
@@ -128,3 +129,17 @@ def putImgToBackGr(img, background, center_x, center_y, max_w, max_h):
     return background
 
 
+def delYiJi(file):
+    '''
+    @Brife:
+        处理宜和忌的词语函数
+    '''
+    with open(file) as f:
+        all_word = f.read().split('\n')
+    result = random.choice(all_word)
+    if len(result)==2:
+        pass
+    elif len(result)==4:
+        return result[:2] + '\n' + result[2:]
+    else:
+        raise NotImplementedError("后面的函数已经有了解决方式, 时间原因先不写")
